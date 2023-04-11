@@ -424,6 +424,7 @@ section {
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
+  object-fit: contain;
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;
