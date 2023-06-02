@@ -424,8 +424,22 @@ section {
   height: 400px;
   object-fit: cover;
   border-radius: 15px;
-  object-fit: contain;
 }
+
+.portfolio-header {
+  width: 24%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.portfolio-header-active {
+  border-bottom: 2px solid #27AE60;
+}
+
+.section-ml, .section-dl, .section-sde {
+  display: block;
+}
+
 .portfolios .portfolio-item .hover-items {
   width: 100%;
   height: 100%;
@@ -875,8 +889,7 @@ section {
     font-size: 5.5rem;
   }
 }
-@media screen and (max-width: 1250px) {
-  .blogs {
+@media screen and (max-width: 1250px) {  .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
   }
@@ -896,6 +909,10 @@ section {
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .portfolio-header {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1070px) {

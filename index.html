@@ -173,26 +173,28 @@
             <p class="port-text">
                 Here is some of my work that I've done in various programming languages.
             </p>
-
+            <div class="portfolio">
+                <span class="portfolio-header portfolio-title portfolio-header-active" onclick="filterSection(this, ['section-ml', 'section-dl', 'section-sde'])">All</span>
+                <span class="portfolio-header portfolio-title" onclick="filterSection(this, ['section-ml'])">Machine Learning</span>
+                <span class="portfolio-header portfolio-title" onclick="filterSection(this, ['section-dl'])">Deep Learning</span>
+                <span class="portfolio-header portfolio-title" onclick="filterSection(this, ['section-sde'])">Software Development</span>
+            </div>         
             <div class="portfolios">
-                <div>
-                    <h4 class="portfolio-title">Machine Learning</h4>
-
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-ml">
                         <div class="image">
                             <img src="img/Cervical-cancer.jpg" alt="">
                         </div>
                         <div class="hover-items">
                             <h3>Best Cervical Cancer Diagnosis Test Analysis using Machine Learning</h3>
                             <div class="icons">
-                                <a href="https://github.com/Divya-Nandlal-Sahetya/Cervical-cancer-detection-using-ML" class="icon">
+                                <a href="https://github.com/Divya-Nandlal-Sahetya/Cervical-cancer-detection-using-ML" class="icon" target="_blank">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-ml">
                         <div class="image">
                             <img src="img/Algeria_forest_fires.jpeg" alt="">
                         </div>
@@ -206,7 +208,7 @@
                         </div>
                     </div>
 
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-ml">
                         <div class="image">
                             <img src="img/nearest-mean.jpg" alt="">
                         </div>
@@ -220,12 +222,7 @@
                         </div>
                     </div>
 
-                </div>
-
-                <div>
-                    <h4 class="portfolio-title">Deep Learning</h4>
-
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-dl">
                         <div class="image">
                             <img src="img/music_transformer.jpg" alt="">
                         </div>
@@ -239,7 +236,7 @@
                         </div>
                     </div>
                     
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-dl">
                         <div class="image">
                             <img src="img/Semantic-seg.jpg" alt="">
                         </div>
@@ -253,11 +250,7 @@
                         </div>
                     </div>
 
-                </div>
-
-                <div>
-                    <h4 class="portfolio-title">Software Development</h4>
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-sde">
                         <div class="image">
                             <img src="img/Dashboard.jpg" alt="">
                         </div>
@@ -271,7 +264,7 @@
                         </div>
                     </div>
 
-                    <div class="portfolio-item">
+                    <div class="portfolio-item section-sde">
                         <div class="image">
                             <img src="img/TrojanMap.png" alt="">
                         </div>
@@ -284,8 +277,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
+            </div>
+            <div>
                 <div>
                     <h4 class="portfolio-title">Patents and Papers</h4>
                     <div class="portfolio-item">
