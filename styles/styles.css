@@ -424,6 +424,7 @@ section {
   height: 400px;
   object-fit: cover;
   border-radius: 15px;
+  padding: 10px;
 }
 
 .portfolio-header {
@@ -460,6 +461,7 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
